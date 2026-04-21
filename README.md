@@ -89,7 +89,7 @@ The final decision remains with the staff member, who verifies availability and 
 
 Detailed documentation is available in the project Wiki:
 
-https://github.com/YOUR_USERNAME/YOUR_REPO/wiki
+[wiki](https://github.com/thePolly/restaurant-reservation-assistant-ai/wiki)
 
 ---
 
