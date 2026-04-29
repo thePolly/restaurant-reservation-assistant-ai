@@ -93,11 +93,27 @@ Detailed documentation is available in the project Wiki:
 
 ---
 
-## Running the Application
+## Setup & Run
 
-1. Start the application using the provided launcher  
-2. The interface opens in the browser  
-3. Begin processing incoming reservation emails  
+### Backend
+
+```
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 -m spacy download xx_ent_wiki_sm
+echo "OPEN_ROUTER_API_KEY=your_api_key_here" > .env
+uvicorn app.main:app --reload
+```
+
+### Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
 
 ---
 
