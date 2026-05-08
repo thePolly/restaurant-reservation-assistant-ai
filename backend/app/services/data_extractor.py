@@ -41,7 +41,7 @@ def extract_time(email_text: str):
 def extract_last_name(email_text: str):
     patterns = [
         r"name[:\s]+([A-ZÄÖÜ][a-zäöüß]+)",
-        r"familienname[:\s]+([A-ZÄÖÜ][a-zäöüß]+)",
+        r"Grüsse\s+([A-ZÄÖÜ][a-zäöüß]+)",
         r"freundliche grüsse\s+([A-ZÄÖÜ][a-zäöüß]+)",
         r"freundliche grüße\s+([A-ZÄÖÜ][a-zäöüß]+)",
     ]
